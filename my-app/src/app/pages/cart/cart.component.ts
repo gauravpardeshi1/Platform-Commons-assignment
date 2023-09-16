@@ -32,7 +32,7 @@ export class CartComponent {
     ).subscribe(
       (data) => {
         this.CartProducts = data
-        this.total = this.CartProducts.reduce((sum, product) => sum + (product.rs*product.quantity), 0);
+        this.total = this.CartProducts.reduce((sum, product) => sum + (product.rs*(product.quantity==0?1:product.quantity)), 0);
         //console.log('cart', this.CartProducts)
 
       },
