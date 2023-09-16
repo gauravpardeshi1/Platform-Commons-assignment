@@ -73,7 +73,7 @@ export class CatalogueComponent {
     this.http.post('https://lumpy-husky-address.glitch.me/cart', product).subscribe(
       (response) => {
         console.log('API Response POST:', response);
-        alert('Procts added to cart')
+        alert('Product added to cart')
 
       },
       (error) => {
