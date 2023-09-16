@@ -26,7 +26,7 @@ Built a dynamic Angular-based e-commerce web application that offers a seamless 
 - Enabled users to dynamically switch between One page to another.
 - Successfully integrated these features using the Tailwind CSS library.
   
-![Screenshot (1928)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/001673f1-f3cf-4ab2-9c9d-eaa1d5307b70)
+![Screenshot (1928)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/76d1ed2d-9ec1-4349-9bb7-0deb09320129)
 
 #### 2. Cart Page
 
@@ -34,12 +34,14 @@ Built a dynamic Angular-based e-commerce web application that offers a seamless 
 - Remove Product From Cart page.
 - Enabled users to make payment with product details
   
-![Screenshot (1930)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/ed512fc6-ae06-41b1-8b2c-472c638f0952)
+![Screenshot (1930)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/48370d81-ff29-4345-a344-a78e6bbd4057)
 
 
 #### 3. Order Confirm Page
-![Screenshot (1932)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/457f1187-ad32-4437-a859-0bfff975a565)
+
+![Screenshot (1931)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/f81d8e88-4057-46f9-9fb4-ccc146980286)
+
 
 #### 4. Small Screen View
-![Screenshot (1933)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/de59f4a3-b374-44e2-8729-8bd8d1ff4959)
+![Screenshot (1933)](https://github.com/gauravpardeshi1/Platform-Commons/assets/112778106/3816a219-9d7e-463c-8f3b-059833241883)
 
