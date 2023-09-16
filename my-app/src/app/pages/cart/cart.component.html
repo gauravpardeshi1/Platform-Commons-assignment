@@ -1,6 +1,4 @@
-<div  class="w-[60%] mx-auto" 
-*ngIf="CartProducts.length<=0"
->
+<div class="w-[60%] mx-auto" *ngIf="CartProducts.length<=0">
 
     <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-2130356-1800917.png" />
 </div>
@@ -15,7 +13,7 @@
 
                     <div class="md:grid md:grid-cols-3 gap-2 ">
 
-                        <div class="col-span-2 p-5" >
+                        <div class="col-span-2 p-5">
 
                             <h1 class="text-xl font-medium ">Shopping Cart</h1>
 
@@ -44,7 +42,7 @@
 
                                 <div class=" flex justify-center items-center">
 
-                                
+
 
                                     <div class="pr-8 ">
 
@@ -60,15 +58,19 @@
                                 <div class="flex items-center">
                                     <i class="fa fa-times text-sm pr-2"></i>
 
-                                    <span class="text-md  font-medium text-blue-500">Continue Shopping</span>
+                                <span class="text-md  font-medium text-blue-500">Order Details</span>
+                               
                                 </div>
-
+                              
                                 <div class="flex justify-center items-end">
-                                    <span class="text-sm font-medium text-gray-400 mr-1">Subtotal:</span>
+                                    <span class="text-sm font-medium text-gray-400 mr-2">Total :</span>
                                     <span class="text-lg font-semibold text-gray-800 mr-10 "> Rs.{{ total }}</span>
 
                                 </div>
+                                
                             </div>
+                            <span class="w-[90%] mt-6 flex justify-start text-sm font-medium text-gray-400 ">Date : {{currentDate}}</span>
+
                         </div>
                         <div class=" p-5 bg-gray-800 rounded overflow-visible">
 
@@ -145,9 +147,9 @@
                                 </div>
 
                             </div>
-                            <button
-                                class="h-12 w-full bg-blue-500 rounded focus:outline-none text-white hover:bg-blue-600">Check
-                                Out</button>
+                            <a routerLink="/checkout"> <button
+                                    class="h-12 w-full bg-blue-500 rounded focus:outline-none text-white hover:bg-blue-600">Check
+                                    Out</button></a>
 
                         </div>
                     </div>

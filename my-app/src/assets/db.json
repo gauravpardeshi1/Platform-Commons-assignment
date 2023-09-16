@@ -468,18 +468,6 @@
     }
   ],
   "cart": [
-    {
-      "image_url": "https://bit.ly/3wJgLGM",
-      "brand": "KLOTTHE",
-      "name": "Purple Geometric King Bedsheet",
-      "rs": 758,
-      "price": "Rs. 758",
-      "strikedoffprice": "Rs. 3299",
-      "offer": "(65% OFF)",
-      "weight": 200,
-      "rating": 5,
-      "id": 37,
-      "quantity": 3
-    }
+   
   ]
 }

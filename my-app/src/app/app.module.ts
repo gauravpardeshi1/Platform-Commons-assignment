@@ -8,6 +8,7 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CatalogueComponent } from './pages/catalogue/catalogue.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NotifierModule, NotifierOptions } from 'angular-notifier';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { NotifierModule, NotifierOptions } from 'angular-notifier';
     NavbarComponent,
     CartComponent,
     CatalogueComponent,
+    CheckoutComponent,
    
   ],
   imports: [

@@ -20,7 +20,7 @@ export class CatalogueComponent {
 
   ngOnInit(): void {
     this.http.get<any[]>(
-      `http://localhost:4000/data`
+      `https://lumpy-husky-address.glitch.me/data`
     ).subscribe(
       (data) => {
         // Handle the response data here
@@ -36,7 +36,7 @@ export class CatalogueComponent {
 
 
     this.http.get<any[]>(
-      `http://localhost:4000/cart`
+      `https://lumpy-husky-address.glitch.me/cart`
     ).subscribe(
       (data) => {
         this.CartProducts = data
@@ -52,7 +52,7 @@ export class CatalogueComponent {
 
   addItemToCart(product: any) {
     // console.log('product',product)
-    this.http.patch(`http://localhost:4000/data/${product.id}`, { quantity: 1 }).subscribe(
+    this.http.patch(`https://lumpy-husky-address.glitch.me/data/${product.id}`, { quantity: 1 }).subscribe(
       (response) => {
         console.log('API Response  PATCH:', response);
         this.products = this.products.map(item => {
@@ -70,7 +70,7 @@ export class CatalogueComponent {
       }
     );
 
-    this.http.post('http://localhost:4000/cart', product).subscribe(
+    this.http.post('https://lumpy-husky-address.glitch.me/cart', product).subscribe(
       (response) => {
         console.log('API Response POST:', response);
         alert('Procts added to cart')
@@ -92,7 +92,7 @@ export class CatalogueComponent {
 
 
 
-    this.http.patch(`http://localhost:4000/data/${id}`, { quantity: quantity + 1 }).subscribe(
+    this.http.patch(`https://lumpy-husky-address.glitch.me/data/${id}`, { quantity: quantity + 1 }).subscribe(
       (response) => {
         // console.log('API Response:', response);
         this.products = this.products.map(item => {
@@ -107,7 +107,7 @@ export class CatalogueComponent {
         console.error('API Error:', error);
       }
     );
-    this.http.patch(`http://localhost:4000/cart/${id}`, { quantity: quantity + 1 }).subscribe(
+    this.http.patch(`https://lumpy-husky-address.glitch.me/cart/${id}`, { quantity: quantity + 1 }).subscribe(
       (response) => {
         // console.log('API Response:', response);
 
@@ -124,7 +124,7 @@ export class CatalogueComponent {
   decrementQuantity(id: any, quantity: any) {
     //console.log('q',quantity)
     if (quantity == 1) {
-      this.http.patch(`http://localhost:4000/data/${id}`, { quantity: quantity - 1 }).subscribe(
+      this.http.patch(`https://lumpy-husky-address.glitch.me/data/${id}`, { quantity: quantity - 1 }).subscribe(
         (response) => {
           // console.log('API Response:', response);
 
@@ -140,7 +140,7 @@ export class CatalogueComponent {
         }
       );
 
-      this.http.delete(`http://localhost:4000/cart/${id}`).subscribe(
+      this.http.delete(`https://lumpy-husky-address.glitch.me/cart/${id}`).subscribe(
         (response) => {
           // console.log('API Response:', response);
           console.log('Product remove from cart')
@@ -152,7 +152,7 @@ export class CatalogueComponent {
       );
     } else {
 
-      this.http.patch(`http://localhost:4000/cart/${id}`, { quantity: quantity - 1 }).subscribe(
+      this.http.patch(`https://lumpy-husky-address.glitch.me/cart/${id}`, { quantity: quantity - 1 }).subscribe(
         (response) => {
           // console.log('API Response:', response);
 
@@ -168,7 +168,7 @@ export class CatalogueComponent {
         }
       );
 
-      this.http.patch(`http://localhost:4000/data/${id}`, { quantity: quantity - 1 }).subscribe(
+      this.http.patch(`https://lumpy-husky-address.glitch.me/data/${id}`, { quantity: quantity - 1 }).subscribe(
         (response) => {
           // console.log('API Response:', response);
 

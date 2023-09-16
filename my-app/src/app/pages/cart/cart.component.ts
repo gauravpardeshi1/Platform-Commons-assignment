@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { formatDate } from '@angular/common';
 
 
 interface CartProduct {
@@ -16,14 +17,18 @@ interface CartProduct {
 })
 export class CartComponent {
   constructor(private http: HttpClient) { }
+  currentDate: any;
 
 
   CartProducts: any[] = [];
   total: number = 0;
 
   ngOnInit(): void {
+
+    this.currentDate = formatDate(new Date(), 'MM/dd/yyyy', 'en-US');
+
     this.http.get<any[]>(
-      `http://localhost:4000/cart`
+      `https://lumpy-husky-address.glitch.me/cart`
     ).subscribe(
       (data) => {
         this.CartProducts = data
@@ -38,7 +43,7 @@ export class CartComponent {
   }
 
   removeItemfromCart(id:any){
-    this.http.delete(`http://localhost:4000/cart/${id}`).subscribe(
+    this.http.delete(`https://lumpy-husky-address.glitch.me/cart/${id}`).subscribe(
       (response) => {
        // console.log('API Response:', response);
       alert('Product remove from cart')
@@ -48,6 +53,22 @@ export class CartComponent {
         console.error('API Error:', error);
       }
     );
+
+    this.http.patch(`https://lumpy-husky-address.glitch.me/data/${id}`, { quantity: 0 }).subscribe(
+      (response) => {
+        // console.log('API Response:', response);
+
+      
+      },
+      (error) => {
+        console.error('API Error:', error);
+      }
+    );
+
+
+
   }
+
+  
 
 }
