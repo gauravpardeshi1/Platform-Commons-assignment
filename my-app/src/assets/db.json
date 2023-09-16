@@ -10,7 +10,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 36
+      "id": 36,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3wJgLGM",
@@ -22,7 +23,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 37
+      "id": 37,
+      "quantity": 3
     },
     {
       "image_url": "https://bit.ly/3wR8oZJ",
@@ -34,7 +36,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 38
+      "id": 38,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/35khX87",
@@ -46,7 +49,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 39
+      "id": 39,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3tOYYfr",
@@ -58,7 +62,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 40
+      "id": 40,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3NvN01V",
@@ -70,7 +75,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 41
+      "id": 41,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3qKLDTt",
@@ -82,7 +88,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 42
+      "id": 42,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3tOZvxX",
@@ -94,7 +101,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 43
+      "id": 43,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3JSmSfw",
@@ -106,19 +114,21 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 44
+      "id": 44,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3NwqcPO",
       "brand": "ELEVANTO",
-      "name": "Women Purple Solid Bath Robes",
+      "name": "Women Purple Solid Bath",
       "rs": 489,
       "price": "Rs. 489",
       "strikedoffprice": "Rs. 999",
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 45
+      "id": 45,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3Lqrha4",
@@ -130,7 +140,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 3,
-      "id": 46
+      "id": 46,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3wN0jW4",
@@ -142,7 +153,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 47
+      "id": 47,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3tOftZ9",
@@ -154,7 +166,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 48
+      "id": 48,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3JRvCCK",
@@ -166,7 +179,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 2,
-      "id": 49
+      "id": 49,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3tNxl6m",
@@ -178,7 +192,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 3,
-      "id": 50
+      "id": 50,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3wJjTCw",
@@ -190,7 +205,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 51
+      "id": 51,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/36QSKmd",
@@ -202,7 +218,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 52
+      "id": 52,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3qLCqdE",
@@ -214,7 +231,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 53
+      "id": 53,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3tOqXf9",
@@ -226,7 +244,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 54
+      "id": 54,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3uFBPv4",
@@ -238,7 +257,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 55
+      "id": 55,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3Lt66nR",
@@ -250,19 +270,21 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 56
+      "id": 56,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3uB6yte",
       "brand": "LA VERNE",
-      "name": "Set of 2 White Solid cotton Pillows",
+      "name": "Set of 2 White Solid cott",
       "rs": 699,
       "price": "Rs. 699",
       "strikedoffprice": "Rs. 2499",
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 57
+      "id": 57,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3wIEUgF",
@@ -274,7 +296,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 58
+      "id": 58,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/36TM7j1",
@@ -286,7 +309,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 59
+      "id": 59,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3wMc52R",
@@ -298,31 +322,34 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 3,
-      "id": 60
+      "id": 60,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3NywPBe",
       "brand": "ELEVANTO",
-      "name": "Women Navy Blue Solid Bath Robe",
+      "name": "Women Navy Blue Solid Bath",
       "rs": 489,
       "price": "Rs. 489",
       "strikedoffprice": "Rs. 999",
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 61
+      "id": 61,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3wKg6VB",
       "brand": "Trident",
-      "name": "Teal Blue Solid Pure Cotton Towel",
+      "name": "Teal Blue Solid Pure",
       "rs": 549,
       "price": "Rs. 549",
       "strikedoffprice": "Rs. 999",
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 62
+      "id": 62,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3LswG03",
@@ -338,14 +365,15 @@
     {
       "image_url": "https://bit.ly/36BnaJr",
       "brand": "TRIBAN By Decathlon",
-      "name": "Black Solid Mobility Plastic Bottle",
+      "name": "Black Solid Mobi",
       "rs": 159,
       "price": "Rs. 159",
       "strikedoffprice": "Rs. 199",
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 64
+      "id": 64,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3uBDaD5",
@@ -357,7 +385,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 65
+      "id": 65,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/36ya7sn",
@@ -369,19 +398,21 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 3,
-      "id": 66
+      "id": 66,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3uJV72G",
       "brand": "ELEVANTO",
-      "name": "Women Fuchsia Pink Solid Bath Robe",
+      "name": "Women Fuchsia Pink Solid Bath",
       "rs": 623,
       "price": "Rs. 623",
       "strikedoffprice": "Rs. 2599",
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 67
+      "id": 67,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3qKqV5Y",
@@ -393,7 +424,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 68
+      "id": 68,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3IOA1VQ",
@@ -405,7 +437,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 2,
-      "id": 69
+      "id": 69,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3NvIS29",
@@ -417,7 +450,8 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 4,
-      "id": 70
+      "id": 70,
+      "quantity": 0
     },
     {
       "image_url": "https://bit.ly/3LqwmiE",
@@ -429,33 +463,23 @@
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 71
+      "id": 71,
+      "quantity": 0
     }
   ],
   "cart": [
     {
-      "image_url": "https://bit.ly/3NvIS29",
-      "brand": "DREAM WEAVERZ",
-      "name": "300 TC Cotton 30 No 1 Covers",
-      "rs": 623,
-      "price": "Rs. 623",
-      "strikedoffprice": "Rs. 2599",
-      "offer": "(65% OFF)",
-      "weight": 200,
-      "rating": 4,
-      "id": 70
-    },
-    {
-      "image_url": "https://bit.ly/3LqwmiE",
-      "brand": "DREAM WEAVERZ",
-      "name": "Grey & Pink Ethnic Bedsheet",
-      "rs": 899,
-      "price": "Rs. 899",
-      "strikedoffprice": "Rs. 2999",
+      "image_url": "https://bit.ly/3wJgLGM",
+      "brand": "KLOTTHE",
+      "name": "Purple Geometric King Bedsheet",
+      "rs": 758,
+      "price": "Rs. 758",
+      "strikedoffprice": "Rs. 3299",
       "offer": "(65% OFF)",
       "weight": 200,
       "rating": 5,
-      "id": 71
+      "id": 37,
+      "quantity": 3
     }
   ]
 }

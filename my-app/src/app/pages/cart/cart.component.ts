@@ -19,23 +19,35 @@ export class CartComponent {
 
 
   CartProducts: any[] = [];
+  total: number = 0;
 
   ngOnInit(): void {
     this.http.get<any[]>(
-      `http://localhost:3000/cart`
+      `http://localhost:4000/cart`
     ).subscribe(
       (data) => {
-        // Handle the response data here
         this.CartProducts = data
-        console.log('cart', this.CartProducts)
+        this.total = this.CartProducts.reduce((sum, product) => sum + product.rs, 0);
+        //console.log('cart', this.CartProducts)
 
       },
       (error) => {
-        // Handle errors here
         console.error('An error occurred:', error);
       }
     );
   }
 
+  removeItemfromCart(id:any){
+    this.http.delete(`http://localhost:4000/cart/${id}`).subscribe(
+      (response) => {
+       // console.log('API Response:', response);
+      alert('Product remove from cart')
+      this.CartProducts = this.CartProducts.filter(item=>item.id!=id)
+      },
+      (error) => {
+        console.error('API Error:', error);
+      }
+    );
+  }
 
 }
