@@ -432,5 +432,30 @@
       "id": 71
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "image_url": "https://bit.ly/3NvIS29",
+      "brand": "DREAM WEAVERZ",
+      "name": "300 TC Cotton 30 No 1 Covers",
+      "rs": 623,
+      "price": "Rs. 623",
+      "strikedoffprice": "Rs. 2599",
+      "offer": "(65% OFF)",
+      "weight": 200,
+      "rating": 4,
+      "id": 70
+    },
+    {
+      "image_url": "https://bit.ly/3LqwmiE",
+      "brand": "DREAM WEAVERZ",
+      "name": "Grey & Pink Ethnic Bedsheet",
+      "rs": 899,
+      "price": "Rs. 899",
+      "strikedoffprice": "Rs. 2999",
+      "offer": "(65% OFF)",
+      "weight": 200,
+      "rating": 5,
+      "id": 71
+    }
+  ]
 }
