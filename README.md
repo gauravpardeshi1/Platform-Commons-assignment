@@ -2,7 +2,7 @@
 
 # Platform-Commons Assignment 
 
-#### Deploy Link : [https://switchy-omega.vercel.app/](https://platform-commons-opal.vercel.app/)
+#### Deploy Link : https://platform-commons-opal.vercel.app/
 
 ## Building an Interactive Angular-based e-commerce web application
 
