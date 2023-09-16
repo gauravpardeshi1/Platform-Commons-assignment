@@ -38,7 +38,7 @@
                 </svg>
             </div>
             <h1 class="text-xl font-semibold my-5">{{ product.name.slice(0, 20) }}</h1>
-            <p class="mb-5">150kg </p>
+            <p class="font-semibold mb-5">{{product.weight}} gm </p>
             <h2 class="font-semibold mb-5">{{ product.price }}</h2>
             <button (click)="addItemToCart(product)"
                 class="p-2 px-6 bg-purple-500 text-white rounded-md hover:bg-purple-600"
