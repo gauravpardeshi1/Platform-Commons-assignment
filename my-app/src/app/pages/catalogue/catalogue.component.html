@@ -4,7 +4,7 @@
         *ngIf="products.length > 0 ">
         <section *ngFor="let product of products"
             class="p-5 py-5 bg-purple-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
-            <img class="w-64 h-64 border" [src]='product.image_url' alt="">
+            <img class="w-64 h-64 mx-auto" [src]='product.image_url' alt="">
             <div class="space-x-1 flex justify-center mt-10">
                 <svg class="w-4 h-4 mx-px fill-current text-orange-600" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 14 14">

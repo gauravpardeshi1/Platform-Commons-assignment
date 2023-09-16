@@ -13,23 +13,26 @@
 
                     <div class="md:grid md:grid-cols-3 gap-2 ">
 
-                        <div class="col-span-2 p-5">
+                        <div class="col-span-2 p-5 relative">
 
                             <h1 class="text-xl font-medium ">Shopping Cart</h1>
 
                             <div *ngFor="let CartProduct of CartProducts"
-                                class="flex  justify-between items-center mt-6 pt-6">
+                                class="flex  justify-between items-center mt-6 pt-6 ">
                                 <div class="flex  items-center">
                                     <img [src]="CartProduct.image_url" width="60">
 
-                                    <div class="flex flex-col ml-3">
+                                    <div class="flex flex-col ml-3 ">
                                         <span class="md:text-md font-medium">{{CartProduct.name}}</span>
-                                        <span class="text-xs font-light text-gray-400">{{CartProduct.brand}}</span>
+                                        <span class="text-xs font-light text-gray-400">{{CartProduct.price}}</span>
 
                                         <svg (click)="removeItemfromCart(CartProduct.id)"
                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            class="w-6 h-6 text-red-500 hover:text-red-700 cursor-pointer">
+                                            class="w-6 h-6 text-red-500 hover:text-red-700 cursor-pointer absolute right-5
+                                            -mt-5"
+                                            
+                                            >
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M6 18L18 6M6 6l12 12"></path>
                                         </svg>
@@ -40,14 +43,14 @@
                                 </div>
 
 
-                                <div class=" flex justify-center items-center">
+                                <div>
 
 
 
-                                    <div class="pr-8 ">
-
-                                        <span class="text-xs font-medium">{{CartProduct.price}}</span>
-                                    </div>
+                                   
+                                    <span class="text-xs font-medium">Q.
+                                        {{CartProduct.quantity==0?1:CartProduct.quantity}}
+                                    </span>
 
 
                                 </div>
@@ -58,18 +61,19 @@
                                 <div class="flex items-center">
                                     <i class="fa fa-times text-sm pr-2"></i>
 
-                                <span class="text-md  font-medium text-blue-500">Order Details</span>
-                               
+                                    <span class="text-md  font-medium text-blue-500">Order Details</span>
+
                                 </div>
-                              
+
                                 <div class="flex justify-center items-end">
                                     <span class="text-sm font-medium text-gray-400 mr-2">Total :</span>
                                     <span class="text-lg font-semibold text-gray-800 mr-10 "> Rs.{{ total }}</span>
 
                                 </div>
-                                
+
                             </div>
-                            <span class="w-[90%] mt-6 flex justify-start text-sm font-medium text-gray-400 ">Date : {{currentDate}}</span>
+                            <span class="w-[90%] mt-6 flex justify-start text-sm font-medium text-gray-400 ">Date :
+                                {{currentDate}}</span>
 
                         </div>
                         <div class=" p-5 bg-gray-800 rounded overflow-visible">
